@@ -23,7 +23,7 @@ h2 {
 h3 {
     font-size: 20px;
     color: black;
-    font-family: "游明朝体";
+    font-family: "游ゴシック";
 }
 
 h4 {
@@ -40,7 +40,7 @@ h5 {
 }
 
 p {
-    font-family: "游明朝体";
+    font-family: "游ゴシック体";
     font-size: 16px;
 }
 
@@ -235,7 +235,26 @@ input[name="tab_item"] {
 
 .single__img {
     width: 60%;
-    margin-top: 15%;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+
+.single__img_herf {
+    display: grid;
+    gap: 7%;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 5%;
+}
+
+.single__img_3 {
+    display: grid;
+    gap: 7%;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 5%;
+}
+
+.single__under {
+    margin-top: 10%;
 }
 
 .single__text {
@@ -264,7 +283,7 @@ input[name="tab_item"] {
     h2 {
         font-size: 40px;
         margin-top: 30%;
-        margin-bottom: 0;
+        margin-bottom: 20%;
     }
 
     h4 {
@@ -280,7 +299,7 @@ input[name="tab_item"] {
     }
     
     p {
-        font-family: "游明朝体";
+        font-family: "游ゴシック体";
         font-size: 14px;
     }
     
@@ -321,7 +340,7 @@ input[name="tab_item"] {
 
     .container {
         display: grid;
-        gap: 0px;
+        gap: 2%;
         grid-template-columns: repeat(1,1fr);
         margin: 10% 15% 20% 15%;
     }
@@ -352,14 +371,13 @@ input[name="tab_item"] {
         margin: 0 auto;
     }
 
-    .container2 {
+    .container-works {
         display: grid;
-        gap: 5px;
         grid-template-columns: repeat(1,1fr);
         margin: 15% 12% 40% 12%;
     }
     
-    .container2 p {
+    .container-works p {
         margin-bottom: 3rem;
         font-family: "游ゴシック体";
     }
@@ -367,6 +385,10 @@ input[name="tab_item"] {
     .work__nav a {
         margin: 6%;
         padding-bottom: 5px;
+    }
+
+    .tab_content {
+        padding: 0;
     }
     
     .single__img {
