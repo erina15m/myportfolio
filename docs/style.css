@@ -8,7 +8,17 @@ html,body {
 }
 
 h1 {
-    margin: 0;
+    font-size: 80px;
+    color: #003767;
+    font-family: Georgia;
+    text-align: center;
+    margin-top: 35vh;
+    margin-bottom: 0;
+}
+
+#header_h2 {
+    margin-top: 30px;
+    /* margin-bottom: 20%; */
 }
 
 h2 {
@@ -125,9 +135,18 @@ main {
 }
 
 #header {
-    background-image: url(img/header.png);
+    /* background-image: url(img/header.png);
     background-size: cover;
-    height: 100vh;
+    height: 100vh; */
+    border: 40px solid #003767; 
+    /* box-sizing: content-box; */
+    min-height: 100vh;
+    box-sizing: border-box;
+    /* max-height: 100px; */
+}
+
+.about {
+    margin-top: 20%;
 }
 
 .about-section {
@@ -358,13 +377,27 @@ input[name="tab_item"] {
     }
     
     #header {
-        background-image: url(img/00.png);
+        /* background-image: url(img/header.png);
         background-size: cover;
-        height: 100vh;
+        height: 100vh; */
+        border: 20px solid #003767; 
+        /* box-sizing: content-box; */
+        min-height: 100vh;
+        box-sizing: border-box;
+        /* max-height: 100px; */
+    }
+
+    h1 {
+        font-size: 35px;
+        margin-top: 40vh;
+    }
+
+    #header_h2 {
+        margin-top: 25px;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 30px;
         margin-top: 30%;
         margin-bottom: 20%;
     }
@@ -390,6 +423,10 @@ input[name="tab_item"] {
         display: grid;
         gap: 0px;
         grid-template-columns: repeat(1,1fr);
+    }
+
+    .about {
+        margin-top: 40%;
     }
 
     .erina {
